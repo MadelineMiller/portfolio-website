@@ -1,1 +1,16 @@
 /* CSS file */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d699cb;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+  
+  /*For "And CSS now!" */
+p1 {
+    font-size: 24px;
+    color: #777;
+    margin: 10px 0;
+}
+  
