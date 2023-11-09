@@ -1,0 +1,71 @@
+<!--DOCTYPE must be there to let the browser know this is HTML-->
+<!DOCTYPE html>
+
+<!--An HTML start tag defines the start of the HTML document
+this languange is set for English-->
+<html lang="en">
+<meta charset="UTF-8">
+<title>My Work Experience</title>
+<!--Link tag links to a stylesheet-->
+<link href="style.css" rel="stylesheet" type="text/css" />
+<!--Makes the page look good on various sizes of screens-->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!--Between the style tags is where you could put CSS-->
+<style>
+</style>
+<!--The script tag could link to a script in between the quotes ""-->
+<script src=""></script>
+
+<!--Body tags mark the visible body of the HTML document-->
+<body>
+
+    <br>
+    <br> 
+    <div class="topnavbar">
+        <a href="index.html">Home</a>
+        <a href="#WorkExperience.html">WorkExperience</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+    <br>
+    <br>
+
+    <div class="WorkExperience">
+        
+        <h1>Data Structures and Algorithms Tutor & Grader</h1>
+        <p class="job-details">
+            UC Santa Cruz, Apr. - June 2023
+        </p>
+        <ul class="responsibilities">
+            <li>Mentored ~50 students during biweekly sessions and graded assignments and exams.</li>
+            <li>Fostered problem-solving proficiency via interactive discussions and providing in-depth explanations of coding methodologies and strategies.</li>
+        </ul>
+        <!--What project experience do you have?-->
+        <!-- Add a button to trigger the modal -->
+        <button id="myModalBtn">More Details</button>
+    </div>
+
+    <!-- The modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModalBtn">&times;</span>
+            <h2>Additional Details</h2>
+            <p>
+                • Data Structures & Algorithms Expertise: Proficient in tutoring and grading data structures and algorithms, with a deep understanding of fundamental concepts and their real-world applications.
+                <br><br>
+                • Mentorship: Acting as a mentor to students, offering guidance on academic and career development in computer science and related fields.
+                <br><br>
+                • Effective Teaching Skills: Skilled in conveying complex technical information in a clear and understandable manner, fostering students' comprehension and problem-solving abilities.
+                <br><br>
+                • Academic Support: Collaborating with professors and academic staff to enhance the overall learning experience, providing supplementary resources and assistance to students.
+            </p>
+        </div>
+    </div>
+
+    <!-- Include your script tag at the end to handle modal functionality -->
+    <script src="script.js"></script>
+
+</body>
+
+<!--An HTML end tag defines the end of the HTML document-->
+</html>

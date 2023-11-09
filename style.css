@@ -19,6 +19,20 @@ p2 {
     margin: 10px 0;
 }
 
+.job-details {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Style for the list of job responsibilities */
+.responsibilities {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 16px;
+  color: #555;
+}
+
 /* Nav Bar */
 /* Add a black background color to the top navigation */
 .topnav {
@@ -47,3 +61,50 @@ p2 {
     background-color: #04AA6D;
     color: white;
   }
+
+  /* ... (Your existing styles) ... */
+
+/* Style for the modal */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+/* Style for the modal content */
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Style for the close button (the "x" in the corner) */
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Style for the button that triggers the modal */
+#myModalBtn {
+  background-color: rgb(111, 26, 201);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Add more styles as needed */
